@@ -1,0 +1,212 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('background.jpg'); /* Add your background image here */
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    color: #333;
+}
+
+/* Header */
+header {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column; /* Stack elements vertically */
+    align-items: center; /* Center align items */
+    z-index: 100;
+    background-color: rgba(51, 51, 51, 0.9); /* Semi-transparent header */
+    height: 40px; /* Set a fixed height for the header */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center; /* Align items vertically in the center */
+    padding: 0 50px;
+}
+
+.logo {
+    position: absolute; /* Keep logo absolutely positioned */
+    top: 5px; /* Position logo at the bottom of the header */
+    left: 95%; /* Center the logo */
+    transform: translateX(-50%); /* Center the logo */
+}
+
+.logo img {
+    width: 50px; /* Adjust size as necessary */
+    height: auto;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold; /* Bold font */
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.nav-links li a:hover {
+    background-color: rgba(255, 255, 255, 0.3); /* Light background on hover */
+}
+
+.login-dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.login-btn {
+    background-color: #39b021;
+    color: white;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold; /* Bold font */
+}
+
+.login-btn:hover {
+    background-color: #39b021;
+}
+
+.login-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: white;
+    min-width: 200px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    border-radius: 5px;
+    z-index: 1;
+}
+
+.login-content a {
+    color: #39b021;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold; /* Bold font */
+}
+
+.login-content a:hover {
+    background-color: #39b021;
+    color: white;
+}
+
+.login-content a:last-child {
+    border-bottom: none;
+}
+
+.login-dropdown:hover .login-content {
+    display: block;
+}
+
+/* About Us Section */
+.about-us {
+    text-align: center;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent box */
+    margin: 60px;
+    border-radius: 40px;
+}
+
+.about-us h2 {
+    font-size: 20px;
+    color: #333;
+}
+
+.about-us p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/* Activities Section */
+.activities {
+    text-align: center;
+    padding: 30px 0;
+    background-color: rgba(255, 255, 255, 0.9); /* Semi-transparent background */
+    margin: 20px;
+    border-radius: 10px;
+}
+
+.activities h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 40px;
+}
+
+.activities-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.activity {
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+}
+
+.activity img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.activity h3 {
+    font-size: 22px;
+    color: #333;
+    margin: 15px 0;
+}
+
+.activity p {
+    font-size: 16px;
+    color: #666;
+    margin-top: 10px;
+}
+
+.activity button {
+    background-color: #42b021;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 5px;
+    background-color: #333;
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}

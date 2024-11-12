@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reciever's Login</title>
+    <link rel="stylesheet" href="stylelogin.css">
+</head>
+<body>
+    <!-- Logo Section -->
+    <div class="logo">
+        <img src="logo.png" alt="Logo">
+    </div>
+    <ul class="nav-links">
+        <li><a href="after_login.html"></a></li>
+    </ul>
+    <div class="container">
+        <div class="login-form">
+            <h2>Reciever's Login</h2>
+            <form id="loginForm" action="login_receiver.php" method="POST" onsubmit="return validateLoginForm()">
+                <div class="form-group">
+                    <label for="email-phone">Email or Phone No</label>
+                    <input type="text" id="email-phone" name="email-phone" placeholder="Enter your email or phone number" required>
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password" placeholder="Enter your password" required>
+                </div>
+                <button type="submit" class="submit-btn">Login</button>
+            </form>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

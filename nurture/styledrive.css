@@ -1,0 +1,218 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url('background.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+
+.container {
+    background-color: rgba(255, 255, 255, 0.85);
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+    width: 400px;
+}
+
+.login-form h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #42b021;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    color: #555;
+}
+
+.form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    outline: none;
+}
+
+.form-group input:focus {
+    border-color: #42b021;
+}
+
+.submit-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #42b021;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submit-btn:hover {
+    background-color: #42b021;
+}
+
+.error-message {
+    color: red;
+    font-size: 14px;
+    display: none;
+}
+
+/* Logo Styling */
+.logo {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+
+.logo img {
+    width: 100px; /* Adjust the size of the logo */
+    height: auto;
+}
+
+
+
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    padding: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav-links {
+    list-style-type: none;
+    display: flex;
+    gap: 15px;
+    margin: 0;
+    padding: 0;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    padding: 10px 15px;
+    display: block;
+}
+
+.logo img {
+    height: 50px;
+}
+
+/* Drive Section */
+.drive-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.drive-section h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.drive-section p {
+    color: #666;
+    margin-bottom: 40px;
+}
+
+/* Activity Container */
+.activity-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.activity-box {
+    background-color: white;
+    border: 1px solid #ddd;
+    padding: 20px;
+    width: 300px;
+    text-align: left;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.activity-box h2 {
+    font-size: 24px;
+    color: #333;
+}
+
+.activity-box p {
+    color: #555;
+    margin: 10px 0;
+}
+
+.activity-box img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Map Section */
+.map-section {
+    padding: 50px;
+    text-align: center;
+    background-color: #f4f4f4;
+}
+
+.map-section h2 {
+    font-size: 28px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+#map {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* Drive Page Styling */
+.drive-container {
+    margin: 50px;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.9); /* Slightly transparent */
+    border-radius: 10px;
+}
+
+.activity {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-bottom: 1px solid #ccc;
+}
+
+.activity button {
+    background-color: #42b021;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.activity button:hover {
+    background-color: #42b021;
+}
